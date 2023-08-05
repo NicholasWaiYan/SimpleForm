@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration from of Dota 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="icon" href="./d2.png">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body bgcolor="#4eb352">
+    <h1 align="center">Dota 2 Registration Form</h1>
+    <img src="./Rubick.jpeg" class="center">
+    <h2 align="left" class="h22">User Information</h2>
+    <form action="">
+     <div>
+        <label for="username"> Game Username: </label>
+        <input type="text" id="username" name="username" placeholder="Username" required>
+    </div>
+    <br>
+    <div>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+    </div>
+    <br>
+    <div>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="@gmail.com" required>
+    </div>
+    <br>
+    <div>
+        <label for="phone">Phone Number: </label>
+        <input type="tel" id="phone" name="phone" max="11" placeholder="+959" required>
+    </div>
+    <br>
+    <div>
+        <label for="date">Date Of Birth: </label>
+        <input type="date" id="date" name="date" required>
+    </div>
+    <br>
+    <div>
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" min="1" max="50" required>
+    </div>
+    <br>
+    <div>
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    </div>
+    <br>
+    Your Favourite Role
+    <div>
+        <label for="carry">Carry</label>
+        <input type="radio" id="carry" name="title">
+        <label for="offlane">Offlane</label>
+        <input type="radio" id="offlane" name="title">
+        <label for="support">Support</label>
+        <input type="radio" id="support" name="title">
+    </div>
+    <br>
+    <div>
+        <label for="file">Your Highligh File: </label>
+        <input type="file" id="file">
+    </div>
+    <br>
+    <div>
+        <label for="iaccepttheagreement">I accept the agreement</label>
+        <input type="checkbox" id="iaccepttheagreement" name="iaccepttheagreement" required>
+    </div>
+    <br>
+    <div>
+        <label for="idon'taccepttheagreement">I don't accept the agreement</label>
+        <input type="checkbox" id="idon'taccepttheagreement" name="idon'taccepttheagreement" required>
+    </div>
+    <br>
+    <button type="submit">Register</button>
+    <button type="reset">Canel</button>
+</form>
+</body>
+</html>
